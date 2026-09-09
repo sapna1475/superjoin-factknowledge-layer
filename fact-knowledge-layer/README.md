@@ -5,6 +5,10 @@ from, and figures out how facts across different documents relate to each
 other — corroborating, contradicting, or reconcilable through context like
 time period, units, or scope.
 
+## Demo Video
+![Demo](assets/Demo%20Video.mp4)
+
+
 ## Architecture
 
 ![Architecture](assets/architecture.svg)
