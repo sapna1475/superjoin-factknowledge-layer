@@ -1,0 +1,9 @@
+fastapi
+uvicorn[standard]
+python-multipart
+psycopg[binary]
+pgvector
+pymupdf
+requests
+streamlit
+#ollama run qwen2.5:1.5b "Hello, who are you?"
