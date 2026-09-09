@@ -5,13 +5,10 @@ from, and figures out how facts across different documents relate to each
 other — corroborating, contradicting, or reconcilable through context like
 time period, units, or scope.
 
-## Demo Video
-![Demo](assets/Demo%20Video.mp4)
-
-
 ## Architecture
 
 ![Architecture](assets/architecture.svg)
+
 
 **Ingest**: a PDF is parsed page by page (PyMuPDF), each page is sent to a
 free hosted LLM to extract factual claims as flexible JSON, and each claim
